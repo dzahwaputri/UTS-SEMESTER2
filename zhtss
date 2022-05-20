@@ -1,0 +1,418 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.rtl.min.css" integrity="sha384-dc2NSrAXbAkjrdm9IYrX10fQq9SDG6Vjz7nQVKdKcJl3pC+k37e7qJR5MVSCS+wR" crossorigin="anonymous">
+    <link rel="stylesheet"type="text/css"href="fontawesome-free/css/all.min.css">
+    <link rel="stylesheet"type="text/css"href="produk.css">
+
+    <title>hello, world!</title>
+  </head>
+  <body>
+
+      <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container">
+
+            <h3><i class="fa-duotone fa-wreath text-succes mr-2"></i></h3>
+          <a class="navbar-brand font-weight-bold" href="#">dzahwa's florist</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mr-4">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">beranda</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">tentang kami</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">produk</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">gallery</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">kontak</a>
+              </li>
+              
+               
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <div class="icon mt-2">
+                <h5>
+                  <i class="fa-solid fa-cart-circle-plus ml-3 mr-3"></i>
+                  <i class="fa-solid fa-envelope mr-3"></i>
+                </h5>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="row mt-5 no-gutters">
+        <div class="col-md-2 bg-light">
+          <ul class="list-group list-group-flush p-2 pt-4">
+            <li class="list-group-item bg-warning"><i class="fas fa-list"></i> KATEGORI PRODUK</li>
+            <li class="list-group-item"><i class="fas fa-list"></i> Bouquets Flowers</li>
+            <li class="list-group-item"><i class="fas fa-list"></i> Birthday Flowers</li>
+            <li class="list-group-item"><i class="fas fa-list"></i> Anniversary Flowers</li>
+            <li class="list-group-item"><i class="fas fa-list"></i> wreaths</li>
+            <li class="list-group-item"><i class="fas fa-list"></i> Stalk Flower</li>
+            <li class="list-group-item">B<i class="fas fa-list"></i> Balloon Bouquets</li>
+          </ul>
+        </div>
+        <div class="col-md-10">
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/slide.1.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide2.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="img/slide3.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          <h4 class="text-center font-weight-bold m-4">NEW PRODUCT</h4>
+
+          <div class="row mx-auto">
+            <div class="card mr-2 ml-2" style="width: 16rem;">
+              <img src="img/produkrk.1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">lyly bouquet</h5>
+                <a href="#" class="btn btn-primary" data-target="produk1"data-toggle="" >Detail</a>
+                <a href="#" class="btn btn-danger">Rp. 480.000</a>
+              </div>
+            </div>
+            <div class="row mx-auto">
+              <div class="card mr-2 ml-2" style="width: 16rem;">
+                <img src="img/produkrk.2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Titania bouquet</h5>
+                  <a href="#" class="btn btn-primary">Detail</a>
+                  <a href="#" class="btn btn-danger">Rp. 540.000</a>
+                </div>
+              </div><div class="row mx-auto">
+                <div class="card mr-2 ml-2" style="width: 16rem;">
+                  <img src="img/produkrk.3.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">cassandra bouquet</h5>
+                    <a href="#" class="btn btn-primary">Detail</a>
+                    <a href="#" class="btn btn-danger">Rp. 420.000</a>
+                  </div>
+                </div><div class="row mx-auto">
+                  <div class="card mr-2 ml-2" style="width: 16rem;">
+                    <img src="img/produkrk.4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">jihane bouquet</h5>
+                      <a href="#" class="btn btn-primary">Detail</a>
+                      <a href="#" class="btn btn-danger">Rp. 370.000 </a>
+                    </div>
+                  </div>
+                 </div>
+
+                 <div class="row mx-auto mt-5">
+                  <div class="card mr-2 ml-2" style="width: 16rem;">
+                    <img src="img/produk rk.5.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">keisha bouquet</h5>
+                      <a href="#" class="btn btn-primary">Detail</a>
+                      <a href="#" class="btn btn-danger">Rp. 460.000</a>
+                    </div>
+                  </div>
+                  <div class="row mx-auto">
+                    <div class="card mr-2 ml-2" style="width: 16rem;">
+                      <img src="img/produkrk.6.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">lameila bouquet</h5>
+                        <a href="#" class="btn btn-primary">Detail</a>
+                        <a href="#" class="btn btn-danger">Rp. 370.000</a>
+                      </div>
+                    </div><div class="row mx-auto">
+                      <div class="card mr-2 ml-2" style="width: 16rem;">
+                        <img src="img/produkrk.8.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">bobbo balloon</h5>
+                          <a href="#" class="btn btn-primary">Detail</a>
+                          <a href="#" class="btn btn-danger">Rp. 380.000</a>
+                        </div>
+                      </div><div class="row mx-auto">
+                        <div class="card mr-2 ml-2" style="width: 16rem;">
+                          <img src="img/produkrk.7.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title">alesha bouquet</h5>
+                            <a href="#" class="btn btn-primary">Detail</a>
+                            <a href="#" class="btn btn-danger">Rp.450.000 </a>
+                          </div>
+                        </div>
+                       </div>
+
+<div class="modal fade" id="produk1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Detail produk</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row"
+        <div class="col-md-6">
+          <tabel class="tabel-borderless">
+            <img/produkrk.1/lyly bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>lyly bouquet</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(25x35)/L(30x40)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 2kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>70pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.420.000-Rp.480.000</td>
+            </tr>
+          </tabel>
+          <tabel class="tabel-borderless">
+            <img/produkrk.2/titania bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>Titania bouquet</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(30x35)/L(40x40)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 3kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>110pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.490.000-Rp.540.000</td>
+            </tr>
+          </tabel>
+          <tabel class="tabel-borderless">
+            <img/produkrk.1/lyly bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>Cassandra bouquet</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(20x30)/L(30x35)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 2kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>50pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.380.000-Rp.420.000</td>
+            </tr>
+          </tabel>
+          <tabel class="tabel-borderless">
+            <img/produkrk.1/lyly bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>Jihanne bouquet</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(20x20)/L(25x25)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 2kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>70pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.200.00-Rp.250.00</td>
+            </tr>
+          </tabel>
+          <tabel class="tabel-borderless">
+            <img/produkrk.1/lyly bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>Keisha bouquet</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(25x35)/L(30x40)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 2kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>70pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.330.000-Rp.370.000</td>
+            </tr>
+          </tabel>
+          <tabel class="tabel-borderless">
+            <img/produkrk.1/lyly bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>Bobbo balloon</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(25x35)/L(30x40)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 2kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>90pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.320.000-Rp.370.000</td>
+            </tr>
+          </tabel>
+          <tabel class="tabel-borderless">
+            <img/produkrk.1/lyly bouquet.jpg
+            <tr>
+              <th>Nama produk </th>
+              <td>lameiyla bouquet</td>
+            </tr>
+            <tr>
+              <th>ukuran </th>
+              <td>M(25x35)/L(30x40)</td>
+            </tr>
+            <tr>
+              <th>preorder </th>
+              <td>3 hari</td>
+            </tr>
+            <tr>
+              <th>volume paket </th>
+              <td>masuk 2kg</td>
+            </tr>
+            <tr>
+              <th>jumlah produk </th>
+              <td>70pcs</td>
+            </tr>
+            <tr>
+              <th>harga </th>
+              <td>Rp.320.000-Rp.370.000</td>
+            </tr>
+          </tabel>
+        </div>
+      </div>
+    </div>
+    
+        <div class="col-md-6"></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">kembali</button>
+        <button type="button" class="btn btn-primary">BELI</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+    <footer class="bg-dark text white p-5">
+      <div class="row">
+        <div class=".col-md-3"></div>
+        <h5> LAYANAN PELANGGAN</h5>
+        <ul>
+          <li>Pusat Bantuan</li>
+          <li>Cara Pembelian
+            <li>Pengiriman</li>
+          </li>
+        </ul>
+        <div class=".col-md-3"></div>
+        <h5>HUBUNGI kami</h5>
+        <ul>
+          <li>021-2368-6477</li>
+          <li>Custmor@dzahwa'sflorist.com</li>
+        </ul>
+        
+    </div>
+    </footer>
+
+    <div class="copyright">
+      <p>Developd by Dzahwa Laely putri copyright <i class="farfa-copyright"> 2022</i></p>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
